@@ -2,7 +2,7 @@ from machine import Pin, Timer
 import onewire
 
 
-# Change set the port state.
+# Set the port state.
 def setPIO( addr, on_off ):
     if on_off:
         # PIO On.
@@ -35,3 +35,6 @@ if len(devs) > 0:
     setPIO(baddr, True)
     machine.lightsleep(500)
     setPIO(baddr, False)
+
+    
+    
