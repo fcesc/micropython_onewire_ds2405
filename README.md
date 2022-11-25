@@ -1,6 +1,5 @@
 # micropython_onewire_ds2405
 DS2405 PIO port control.
 
-This code allows MicroPython to control the PIO port of the DS2405. 
+This is a simple example of how to control the PIO output port of the DS2405 chip with MicroPython. 
 
-This chip uses the 1-wire communications protocol.
