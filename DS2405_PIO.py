@@ -16,7 +16,7 @@ def setPIO( addr, on_off ):
 
 ###################################
             
-
+# 14 -> 1-Wire controller pin.
 p_ow = Pin(14, Pin.OUT)
 ow = onewire.OneWire(p_ow)
 
